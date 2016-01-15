@@ -1,0 +1,20 @@
+<html>
+
+<body>
+    <h1> hello world</h1>
+    <script>
+// this could needs to sit in your website page
+/*
+setTimeout(function() {
+      window.location = "http://my-domain-app"; // or your could put  link to your app on iTunes
+}, 25);
+*/
+
+// If "my-cool-app://" is installed the app will launch immediately and the above
+// timer won't fire. If it's not installed, you'll get an ugly "Cannot Open Page"
+// dialogue prior to the App Store application launching
+window.location = "my-cool-app://";
+
+    </script>
+</body>
+</html>
